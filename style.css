@@ -1,0 +1,35 @@
+body {
+   background-color: #E8E8E8; 
+
+}
+
+.resume{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+}
+
+.head{
+    padding: 40px;
+    background-color: white;
+}
+
+.photo{
+    float:left; 
+    padding: 30px;
+}
+
+.aboutMe {
+    padding: 0px;
+    line-height: 0.7;
+}
+
+.aboutMe h2{
+    text-align: center;
+}
+
+.aboutMep.p{
+    text-align: left;
+}
