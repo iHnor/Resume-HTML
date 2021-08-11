@@ -8,8 +8,15 @@ body {
     color:#3a3939;
 }
 
-li{ 
-    line-height: 1.2;
+.resume{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color:#E8E8E8;
+    float: left;
+    
 }
 
 header {
@@ -25,26 +32,6 @@ header h1 {
     padding: 7px 15px; 
 }
 
-th, td {
-    padding: 12px;
-    line-height: 1;
-    text-align: center;
-}
-
-.resume{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    margin-left: 32%;
-    margin-right: 32%;
-    margin-top: 50px;
-    background-color:#E8E8E8;
-}
-
-.head{
-    padding: 40px;
-    padding-bottom: 2%;
-    background-color: #E8E8E8;
-}
-
 .photo{
     float:left; 
     padding: 30px;
@@ -58,21 +45,66 @@ th, td {
     text-align: left;
 }
 
+.head{
+    padding: 40px;
+    padding-bottom: 2%;
+    background-color: #E8E8E8;
+    clear: left;
+}
+
 .personalInformation {
     padding: 40px;
     padding-bottom: 4%;
     padding-top: 0%;
-    padding-left: 12%;
-    
+    padding-left: 10%;
+    clear: left;
 }
 
-.experience {
-    padding: 40px;
-    padding-top: 0%;
-    padding-left: 12%;
+li{
+    clear: left;
+    line-height: 1.2;
 }
+
+table {
+    margin-left: 8%;
+    clear: left;
+}
+
+th, td {
+    padding: 10px;
+    line-height: 1;
+    text-align: center;
+    clear: left;
+}
+
+.technical{
+    line-height: 1.5;
+    margin-left: 12%;
+    float: left;
+}
+.use-C {
+    width: 30%;
+    text-align: center;
+    padding-left: 1%;
+    word-wrap: break-word;
+    float: left;
+}
+
+.use-Python {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.use-Java-Script {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
 .additional-Information {
     padding: 40px;
-    padding-top: 0%;
+    padding-top: 5%;
     padding-left: 12%;
+    clear: left;
 }
